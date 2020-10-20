@@ -11,4 +11,10 @@ if no1>0 and no2>0 and no3>0 :
     else :
         print(no3," is a maximum no")
 else :
-    print("invalid input ")
+    if no1<0:
+        print(no1," is invalid")
+    elif no2<0:
+        print(no2," is invalid")
+    else:
+        print(no3," is invalid")
+
